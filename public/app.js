@@ -1,8 +1,9 @@
 var catsArray = [
-  { name: 'Ella', favouriteFood: 'Baby birds', imageURL: 'http://68.media.tumblr.com/386355d7ce38d868d9ecba3309428aa9/tumblr_oo4xp0geNm1r8du5uo1_1280.jpg' },
+  { name: 'Baloo', favouriteFood: 'Cream', imageURL: 'http://68.media.tumblr.com/0384f1f9fc56958c4b2d7f5865747a53/tumblr_oo4xseH5221r8du5uo1_1280.jpg'},
   { name: 'Boba', favouriteFood: 'Sock fluff', imageURL: 'http://66.media.tumblr.com/d1f01bbe0150fda0c40d2151c5eaeac8/tumblr_odlqqskjj61v9cejwo1_400.jpg'},
   { name: 'Barnaby', favouriteFood: 'Tuna', imageURL: 'http://68.media.tumblr.com/29643d90b62d9e0c31beacc6936a0a7c/tumblr_oo524833Uw1uvv5gho1_1280.jpg'},
-  { name: 'Max', favouriteFood: 'Whiskas Temptations', imageURL: 'http://66.media.tumblr.com/7c5784ea89369c780e782bf10c60315a/tumblr_npb0hlYwhV1u63jaco1_1280.jpg'}
+  { name: 'Max', favouriteFood: 'Whiskas Temptations', imageURL: 'http://66.media.tumblr.com/7c5784ea89369c780e782bf10c60315a/tumblr_npb0hlYwhV1u63jaco1_1280.jpg'},
+  { name: 'Ella', favouriteFood: 'Baby birds', imageURL: 'http://68.media.tumblr.com/386355d7ce38d868d9ecba3309428aa9/tumblr_oo4xp0geNm1r8du5uo1_1280.jpg' }
 ]
 
 var addCat = function(name, food, imageURL){

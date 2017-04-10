@@ -24,19 +24,22 @@ var createCat = function(){
 var createName = function(catName){
   var name = document.createElement('li')
   name.innerText = 'Name: ' + catName
+  name.classList.add('name')
   return name
 }
 
 var createFood = function(favouriteFood){
   var food = document.createElement('li')
   food.innerText = 'Favourite Food: ' + favouriteFood
+  food.classList.add('food')
   return food
 }
 
 var createImage = function(imageURL){
   var image = document.createElement('img')
   image.setAttribute('src', imageURL);
-  image.setAttribute('width', '500');
+  image.setAttribute('width', '400');
+  image.classList.add('image')
   return image
 }
 

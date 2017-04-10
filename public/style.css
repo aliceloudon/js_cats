@@ -3,6 +3,17 @@
   height: 50px;
 }
 
-.red-quote{
+.red-quote {
   color: red;
+}
+
+#cats {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cat {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }

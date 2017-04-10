@@ -24,14 +24,14 @@ var createCat = function(){
 var createName = function(catName){
   var name = document.createElement('li')
   name.innerText = 'Name: ' + catName
-  name.classList.add('name')
+  name.classList.add('description')
   return name
 }
 
 var createFood = function(favouriteFood){
   var food = document.createElement('li')
   food.innerText = 'Favourite Food: ' + favouriteFood
-  food.classList.add('food')
+  food.classList.add('description')
   return food
 }
 

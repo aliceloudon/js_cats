@@ -39,6 +39,7 @@ var createImage = function(imageURL){
   var image = document.createElement('img')
   image.setAttribute('src', imageURL);
   image.setAttribute('width', '400');
+  image.setAttribute('height', '350');
   image.classList.add('image')
   return image
 }
